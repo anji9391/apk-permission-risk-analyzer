@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APK Permission Risk Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <div class="card">
+
+        <h1 class="title">🔒 APK Permission Risk Analyzer</h1>
+        <p class="subtitle">
+            Upload an Android APK to analyze permission-based security risks
+        </p>
+
+        <div class="upload-box">
+            <input type="file" id="apkFile" accept=".apk">
+            <button onclick="uploadAPK()">Analyze APK</button>
+        </div>
+
+        <div id="output"></div>
+
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
